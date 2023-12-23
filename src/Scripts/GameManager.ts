@@ -24,8 +24,8 @@ const RED = 0xff0000;
 const CLEAR = 0xffffff;
 const invisibleSymbol = "symbol_0.png";
 const swapSymbol = "swapSymbol.png";
-const winMessage = "You \n Win";
-const loseMessage = "You \n Lose";
+const winMessage = "You \n  Win";
+const loseMessage = "You \n  Lose";
 
 const goodFeedBackTxt = ["Great Job", "Well done!","Excellent"];
 const badFeedBackTxt = ["Try again", "Oops Wrong","Try harder"];
@@ -148,7 +148,7 @@ function createBoard(rowSize: number, colSize: number): Card[] {
     newboard[i+1]= newCard2;
     j--;
   }
-  //newboard = suffleBoard(newboard);
+  newboard = suffleBoard(newboard);
   return newboard;
 }
 

@@ -190,6 +190,8 @@ export default class MainScene extends Phaser.Scene {
 		feedBackTxt.visible = false;
 		feedBackTxt.setStyle({ "align": "center" });
 
+		this.gameSound = this.sound.add('gameSound');
+		this.gameSound.play();
 		this.bg = bg;
 		this.symbol11 = symbol11;
 		this.symbol10 = symbol10;
@@ -234,6 +236,7 @@ export default class MainScene extends Phaser.Scene {
 	private symbol1!: Phaser.GameObjects.Sprite;
 	private symbol0!: Phaser.GameObjects.Sprite;
 
+	private gameSound!: Phaser.Sound.BaseSound;
 	private turn_txt!: Phaser.GameObjects.Text;
 	private mainGameTxt!: Phaser.GameObjects.Text;
 	private feedBackTxt!: Phaser.GameObjects.Text;
@@ -262,6 +265,7 @@ export default class MainScene extends Phaser.Scene {
 
 	preload() {
 		this.load.pack("pack", './Assets/game_pack_sd.json');
+		this.load.audio('gameSound', 'Assets/sounds/crashBandicoot.mp3');
 		//this.load.pack("leaderboard", './Assets/image/Leaderboard.png');
 		//this.load.pack("reset", './Assets/image/reset.png');
 	}
@@ -289,7 +293,7 @@ export default class MainScene extends Phaser.Scene {
 			loop: true
 		  });
 
-		 
+		  
 
 	}
 	/* END-USER-CODE */
