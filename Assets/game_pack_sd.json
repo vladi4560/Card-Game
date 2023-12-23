@@ -12,6 +12,13 @@
                 "key": "bitmap_font"
             },
             {
+                "url": [
+                    "Assets/sounds/crashBandicoot.mp3"
+                ],
+                "type": "audio",
+                "key": "crashBandicoot"
+            },
+            {
                 "url": "Assets/image/Leaderboard.png",
                 "type": "image",
                 "key": "Leaderboard"

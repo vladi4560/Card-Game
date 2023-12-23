@@ -157,6 +157,8 @@ class MainScene extends Phaser.Scene {
         feedBackTxt.scaleY = 3.5;
         feedBackTxt.visible = false;
         feedBackTxt.setStyle({ "align": "center" });
+        this.gameSound = this.sound.add('gameSound');
+        this.gameSound.play();
         this.bg = bg;
         this.symbol11 = symbol11;
         this.symbol10 = symbol10;
@@ -192,6 +194,7 @@ class MainScene extends Phaser.Scene {
     }
     preload() {
         this.load.pack("pack", './Assets/game_pack_sd.json');
+        this.load.audio('gameSound', 'Assets/sounds/crashBandicoot.mp3');
         //this.load.pack("leaderboard", './Assets/image/Leaderboard.png');
         //this.load.pack("reset", './Assets/image/reset.png');
     }
