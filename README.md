@@ -16,9 +16,9 @@ This project is a simple implementation of the Memory Card Game using the Phaser
 - Utilizes TypeScript for type-safe coding
 
 ## Installation
-git clone https://github.com/LIADN7/MemoryGame.git
-cd MemoryGame
-npx http-server
+1.git clone https://github.com/LIADN7/MemoryGame.git
+2.cd MemoryGame
+3.npx http-server
 
 ## How to Play
 - Flip cards to find matching pairs
