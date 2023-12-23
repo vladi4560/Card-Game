@@ -1,0 +1,350 @@
+{
+    "id": "f4456493-c481-4114-98d1-c7c4ad8d4998",
+    "sceneType": "SCENE",
+    "settings": {
+        "snapWidth": 1,
+        "snapHeight": 1,
+        "exportClass": true,
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "MainScene",
+        "compilerOutputLanguage": "TYPE_SCRIPT",
+        "borderWidth": 1200
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "01e68e6d-0305-4f7c-82fd-9428d493c35e",
+            "label": "bg",
+            "scope": "CLASS",
+            "texture": {
+                "key": "bg"
+            },
+            "x": 408,
+            "y": 368,
+            "scaleX": 0.6,
+            "scaleY": 0.6
+        },
+        {
+            "type": "Layer",
+            "id": "6a107d5d-766c-49ed-b3ad-31af6b8d5680",
+            "label": "symbols_layer",
+            "list": [
+                {
+                    "type": "Sprite",
+                    "id": "ef50185f-829f-4ea3-b4e6-37b4049b6e16",
+                    "label": "symbol11",
+                    "scope": "CLASS",
+                    "hitArea.shape": "CIRCLE",
+                    "hitArea.x": 116,
+                    "hitArea.y": 116,
+                    "hitArea.radius": 116,
+                    "texture": {
+                        "key": "symbols",
+                        "frame": "symbol_0.png"
+                    },
+                    "x": 215.0637664794922,
+                    "y": 521.4500732421875,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5
+                },
+                {
+                    "type": "Sprite",
+                    "id": "1ccd7611-c671-4711-9acb-68f1f4932cb9",
+                    "label": "symbol10",
+                    "scope": "CLASS",
+                    "hitArea.shape": "CIRCLE",
+                    "hitArea.x": 116,
+                    "hitArea.y": 116,
+                    "hitArea.radius": 116,
+                    "texture": {
+                        "key": "symbols",
+                        "frame": "symbol_0.png"
+                    },
+                    "x": 405.06378173828125,
+                    "y": 521.4500732421875,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5
+                },
+                {
+                    "type": "Sprite",
+                    "id": "c8156b2f-bf00-4e1d-b890-59924ad27584",
+                    "label": "symbol9",
+                    "scope": "CLASS",
+                    "hitArea.shape": "CIRCLE",
+                    "hitArea.x": 116,
+                    "hitArea.y": 116,
+                    "hitArea.radius": 116,
+                    "texture": {
+                        "key": "symbols",
+                        "frame": "symbol_0.png"
+                    },
+                    "x": 595.0637817382812,
+                    "y": 521.4500732421875,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5
+                },
+                {
+                    "type": "Sprite",
+                    "id": "fe8d4c55-54a3-4e91-bf64-7df69b941dbb",
+                    "label": "symbol8",
+                    "scope": "CLASS",
+                    "hitArea.shape": "CIRCLE",
+                    "hitArea.x": 116,
+                    "hitArea.y": 116,
+                    "hitArea.radius": 116,
+                    "texture": {
+                        "key": "symbols",
+                        "frame": "symbol_0.png"
+                    },
+                    "x": 595,
+                    "y": 392,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5
+                },
+                {
+                    "type": "Sprite",
+                    "id": "3f3a1ed5-9fa2-415e-8e9c-01ba14dda39f",
+                    "label": "symbol7",
+                    "scope": "CLASS",
+                    "hitArea.shape": "CIRCLE",
+                    "hitArea.x": 116,
+                    "hitArea.y": 116,
+                    "hitArea.radius": 116,
+                    "texture": {
+                        "key": "symbols",
+                        "frame": "symbol_0.png"
+                    },
+                    "x": 405,
+                    "y": 392,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5
+                },
+                {
+                    "type": "Sprite",
+                    "id": "99b166d6-c508-4cef-a983-da22970e1ffb",
+                    "label": "symbol6",
+                    "scope": "CLASS",
+                    "hitArea.shape": "CIRCLE",
+                    "hitArea.x": 116,
+                    "hitArea.y": 116,
+                    "hitArea.radius": 116,
+                    "texture": {
+                        "key": "symbols",
+                        "frame": "symbol_0.png"
+                    },
+                    "x": 215,
+                    "y": 392,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5
+                },
+                {
+                    "type": "Sprite",
+                    "id": "8a6b75a7-32b9-4146-9847-fcc908e3b84f",
+                    "label": "symbol5",
+                    "scope": "CLASS",
+                    "hitArea.shape": "CIRCLE",
+                    "hitArea.x": 116,
+                    "hitArea.y": 116,
+                    "hitArea.radius": 116,
+                    "texture": {
+                        "key": "symbols",
+                        "frame": "symbol_0.png"
+                    },
+                    "x": 595,
+                    "y": 263,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5
+                },
+                {
+                    "type": "Sprite",
+                    "id": "6022780f-b24b-4325-9503-68ae7e47c50b",
+                    "label": "symbol4",
+                    "scope": "CLASS",
+                    "hitArea.shape": "CIRCLE",
+                    "hitArea.x": 116,
+                    "hitArea.y": 116,
+                    "hitArea.radius": 116,
+                    "texture": {
+                        "key": "symbols",
+                        "frame": "symbol_0.png"
+                    },
+                    "x": 405,
+                    "y": 263,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5
+                },
+                {
+                    "type": "Sprite",
+                    "id": "c71f7dff-e6e9-4915-b3c6-dcf289331a45",
+                    "label": "symbol3",
+                    "scope": "CLASS",
+                    "hitArea.shape": "CIRCLE",
+                    "hitArea.x": 116,
+                    "hitArea.y": 116,
+                    "hitArea.radius": 116,
+                    "texture": {
+                        "key": "symbols",
+                        "frame": "symbol_0.png"
+                    },
+                    "x": 215,
+                    "y": 263,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5
+                },
+                {
+                    "type": "Sprite",
+                    "id": "54bc6308-3edc-4418-a1bf-ed3a10bbe020",
+                    "label": "symbol2",
+                    "scope": "CLASS",
+                    "hitArea.shape": "CIRCLE",
+                    "hitArea.x": 116,
+                    "hitArea.y": 116,
+                    "hitArea.radius": 116,
+                    "texture": {
+                        "key": "symbols",
+                        "frame": "symbol_0.png"
+                    },
+                    "x": 595,
+                    "y": 135,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5
+                },
+                {
+                    "type": "Sprite",
+                    "id": "fb3d361f-bbdb-4140-8368-7718bd28cb13",
+                    "label": "symbol1",
+                    "scope": "CLASS",
+                    "hitArea.shape": "CIRCLE",
+                    "hitArea.x": 116,
+                    "hitArea.y": 116,
+                    "hitArea.radius": 116,
+                    "texture": {
+                        "key": "symbols",
+                        "frame": "symbol_0.png"
+                    },
+                    "x": 405,
+                    "y": 135,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5
+                },
+                {
+                    "type": "Sprite",
+                    "id": "20b0c162-6d91-442a-8ac7-7bbced376809",
+                    "label": "symbol0",
+                    "scope": "CLASS",
+                    "hitArea.shape": "CIRCLE",
+                    "hitArea.x": 116,
+                    "hitArea.y": 116,
+                    "hitArea.radius": 116,
+                    "texture": {
+                        "key": "symbols",
+                        "frame": "symbol_0.png"
+                    },
+                    "x": 215,
+                    "y": 135,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5
+                },
+                {
+                    "type": "Sprite",
+                    "id": "7cd17b84-7ec3-4a81-9570-8071ba0e1c73",
+                    "label": "resetBtn",
+                    "texture": {
+                        "key": "reset"
+                    },
+                    "x": 1093,
+                    "y": 53,
+                    "scaleX": 0.16,
+                    "scaleY": 0.16
+                }
+            ]
+        },
+        {
+            "type": "Text",
+            "id": "e689644b-30c5-4d93-ac93-e4c2dee3568b",
+            "label": "turn_txt",
+            "scope": "CLASS",
+            "x": 794,
+            "y": 117,
+            "scaleX": 2,
+            "scaleY": 2,
+            "text": "Turns Left:\n",
+            "fontStyle": "italic"
+        },
+        {
+            "type": "Text",
+            "id": "1bbcf196-5ca8-47e7-923f-15e6be2a3037",
+            "label": "time_txt",
+            "scope": "CLASS",
+            "x": 794,
+            "y": 164,
+            "scaleX": 2,
+            "scaleY": 2,
+            "text": "Time Left:\n",
+            "fontSize": "20px",
+            "fontStyle": "italic"
+        },
+        {
+            "type": "Layer",
+            "id": "72872f67-e7b9-44c6-995e-03c60e9f3b39",
+            "label": "Leaderboard_layer",
+            "list": [
+                {
+                    "type": "Text",
+                    "id": "187f32c1-e094-4889-ba6e-58bf9c287e3e",
+                    "label": "score1",
+                    "x": 885,
+                    "y": 417,
+                    "text": "New text",
+                    "fontSize": "32px"
+                },
+                {
+                    "type": "Image",
+                    "id": "85834465-1697-4c7a-b3bf-d48dd3a78796",
+                    "label": "Leaderboard",
+                    "texture": {
+                        "key": "Leaderboard"
+                    },
+                    "x": 961,
+                    "y": 388,
+                    "scaleX": 0.3,
+                    "scaleY": 0.3
+                }
+            ]
+        },
+        {
+            "type": "Text",
+            "id": "85562e10-e746-48bf-b19e-4a4ede3d6c01",
+            "label": "startGameTxt",
+            "scope": "CLASS",
+            "x": 140,
+            "y": 70,
+            "scaleX": 11,
+            "scaleY": 17,
+            "visible": false,
+            "text": "Start\nGame",
+            "align": "center",
+            "backgroundColor": "#020202ff"
+        },
+        {
+            "type": "Text",
+            "id": "1f3afe66-3ca5-4a4e-bb26-52b3a2842744",
+            "label": "feedBackTxt",
+            "scope": "CLASS",
+            "x": 283,
+            "y": -5,
+            "scaleX": 3,
+            "scaleY": 3.5,
+            "visible": false,
+            "align": "center"
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}
